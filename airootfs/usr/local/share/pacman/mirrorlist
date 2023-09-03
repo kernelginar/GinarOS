@@ -1,0 +1,65 @@
+## Turkiye
+Server = http://ftp.linux.org.tr/archlinux/$repo/os/$arch
+Server = http://depo.turkiye.linux.web.tr/archlinux/$repo/os/$arch
+Server = https://depo.turkiye.linux.web.tr/archlinux/$repo/os/$arch
+Server = http://mirror.veriteknik.net.tr/archlinux/$repo/os/$arch
+
+## Azerbaijan
+Server = http://mirror.hostart.az/archlinux/$repo/os/$arch
+Server = https://mirror.hostart.az/archlinux/$repo/os/$arch
+Server = http://mirror.yer.az/archlinux/$repo/os/$arch
+Server = https://mirror.yer.az/archlinux/$repo/os/$arch
+
+## Bulgaria
+Server = https://mirror.archlinux.bg/$repo/os/$arch
+Server = https://mirror.darklinux.uk/archlinux/$repo/os/$arch
+Server = http://mirror.host.ag/archlinux/$repo/os/$arch
+Server = http://mirrors.netix.net/archlinux/$repo/os/$arch
+Server = http://mirror.telepoint.bg/archlinux/$repo/os/$arch
+Server = https://mirror.telepoint.bg/archlinux/$repo/os/$arch
+Server = http://mirrors.uni-plovdiv.net/archlinux/$repo/os/$arch
+Server = https://mirrors.uni-plovdiv.net/archlinux/$repo/os/$arch
+
+## Greece
+Server = http://ftp.cc.uoc.gr/mirrors/linux/archlinux/$repo/os/$arch
+Server = https://repo.greeklug.gr/data/pub/linux/archlinux/$repo/os/$arch
+Server = http://mirrors.myaegean.gr/linux/archlinux/$repo/os/$arch
+Server = http://ftp.ntua.gr/pub/linux/archlinux/$repo/os/$arch
+Server = http://ftp.otenet.gr/linux/archlinux/$repo/os/$arch
+
+## Iran
+Server = http://mirror.arvancloud.ir/archlinux/$repo/os/$arch
+Server = https://mirror.arvancloud.ir/archlinux/$repo/os/$arch
+Server = http://mirror.bardia.tech/archlinux/$repo/os/$arch
+Server = https://mirror.bardia.tech/archlinux/$repo/os/$arch
+Server = http://mirror.hostiran.ir/archlinux/$repo/os/$arch
+Server = https://mirror.hostiran.ir/archlinux/$repo/os/$arch
+Server = http://repo.iut.ac.ir/repo/archlinux/$repo/os/$arch
+Server = http://mirror.nak-mci.ir/arch/$repo/os/$arch
+
+## Switzerland
+Server = http://pkg.adfinis.com/archlinux/$repo/os/$arch
+Server = https://pkg.adfinis.com/archlinux/$repo/os/$arch
+Server = http://mirror.init7.net/archlinux/$repo/os/$arch
+Server = https://mirror.init7.net/archlinux/$repo/os/$arch
+Server = http://mirror.metanet.ch/archlinux/$repo/os/$arch
+Server = https://mirror.metanet.ch/archlinux/$repo/os/$arch
+Server = http://mirror.puzzle.ch/archlinux/$repo/os/$arch
+Server = https://mirror.puzzle.ch/archlinux/$repo/os/$arch
+Server = https://theswissbay.ch/archlinux/$repo/os/$arch
+Server = https://mirror.ungleich.ch/mirror/packages/archlinux/$repo/os/$arch
+Server = https://mirror.worldhotspot.org/archlinux/$repo/os/$arch
+
+## Ukraine
+Server = http://archlinux.astra.in.ua/$repo/os/$arch
+Server = https://archlinux.astra.in.ua/$repo/os/$arch
+Server = http://repo.endpoint.ml/archlinux/$repo/os/$arch
+Server = https://repo.endpoint.ml/archlinux/$repo/os/$arch
+Server = http://fastmirror.pp.ua/archlinux/$repo/os/$arch
+Server = https://fastmirror.pp.ua/archlinux/$repo/os/$arch
+Server = http://archlinux.ip-connect.vn.ua/$repo/os/$arch
+Server = https://archlinux.ip-connect.vn.ua/$repo/os/$arch
+Server = http://mirror.mirohost.net/archlinux/$repo/os/$arch
+Server = https://mirror.mirohost.net/archlinux/$repo/os/$arch
+Server = http://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch
+Server = https://mirrors.nix.org.ua/linux/archlinux/$repo/os/$arch

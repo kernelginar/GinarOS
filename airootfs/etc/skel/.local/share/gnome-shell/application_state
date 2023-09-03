@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="menulibre.desktop" score="6" last-seen="1693689801"/>
+    <application id="org.gnome.Nautilus.desktop" score="1" last-seen="1693702063"/>
+    <application id="org.gnome.Settings.desktop" score="76" last-seen="1693702099"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="0" last-seen="1693687147"/>
+    <application id="firefox.desktop" score="2" last-seen="1693701929"/>
+    <application id="org.gnome.tweaks.desktop" score="7" last-seen="1693702079"/>
+    <application id="com.gexperts.Tilix.desktop" score="16" last-seen="1693702098"/>
+    <application id="com.mattjakeman.ExtensionManager.desktop" score="1" last-seen="1693690206"/>
+    <application id="gnome-display-panel.desktop" score="0" last-seen="0"/>
+  </context>
+</application-state>

@@ -1,0 +1,47 @@
+#!/bin/bash
+if [[ $(id -u) != "0" ]]; then
+	echo "You must be root!"
+	exit 1
+else
+	echo "Script starting in 3 seconds ..."
+	sleep 3
+fi
+
+set -v
+
+clear
+
+rm -rf /etc/pacman.d/gnupg
+pacman-key --init
+sleep 1
+clear
+
+pacman-key --populate archlinux
+pacman-key --populate chaotic
+sleep 1
+clear
+
+cp -rv /usr/local/share/pacman/*mirrorlist* /etc/pacman.d/
+sleep 1
+clear
+
+pacman -Syyyyyy
+pacman -S archlinux-keyring chaotic-keyring --noconfirm
+sleep 1
+clear
+
+pacman-key --init
+sleep 1
+clear
+
+pacman-key --populate archlinux
+pacman-key --populate chaotic
+sleep 1
+clear
+
+pacman -Syyyyyy
+sleep 1
+clear
+
+set +v
+echo "archlinux - chaotic keyrings have been fixed."

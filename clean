@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo rm -rf -v work
+sudo rm -rf -v out

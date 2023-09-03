@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<DefaultAppDirs />
+	<DefaultDirectoryDirs />
+	<DefaultMergeDirs />
+	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	<Menu>
+		<Name>Accessories</Name>
+		<Directory>Utility.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>org.gnome.FileRoller.desktop</Filename>
+			<Filename>bluetooth-sendto.desktop</Filename>
+			<Filename>org.gnome.DiskUtility.desktop</Filename>
+			<Filename>com.mattjakeman.ExtensionManager.desktop</Filename>
+			<Filename>org.gnome.Extensions.desktop</Filename>
+			<Filename>org.gnome.Nautilus.desktop</Filename>
+			<Filename>kvantummanager.desktop</Filename>
+			<Filename>menulibre.desktop</Filename>
+			<Filename>nvim.desktop</Filename>
+			<Filename>org.gnome.TextEditor.desktop</Filename>
+			<Filename>org.gnome.tweaks.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Education</Name>
+		<Directory>Education.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>libreoffice-math.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Games</Name>
+		<Directory>Game.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>Graphics.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>org.gnome.eog.desktop</Filename>
+			<Filename>libreoffice-draw.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Directory>Network.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>bssh.desktop</Filename>
+			<Filename>bvnc.desktop</Filename>
+			<Filename>firefox.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Office</Name>
+		<Directory>Office.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>libreoffice-startcenter.desktop</Filename>
+			<Filename>libreoffice-base.desktop</Filename>
+			<Filename>libreoffice-calc.desktop</Filename>
+			<Filename>libreoffice-draw.desktop</Filename>
+			<Filename>libreoffice-impress.desktop</Filename>
+			<Filename>libreoffice-math.desktop</Filename>
+			<Filename>libreoffice-writer.desktop</Filename>
+			<Filename>com.github.xournalpp.xournalpp.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Directory>Development.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Directory>AudioVideo.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>qv4l2.desktop</Filename>
+			<Filename>qvidcap.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System Settings</Name>
+		<Directory>X-GNOME-SystemSettings.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>gnome-info-overview-panel.desktop</Filename>
+			<Filename>gnome-universal-access-panel.desktop</Filename>
+			<Filename>gnome-background-panel.desktop</Filename>
+			<Filename>gnome-applications-panel.desktop</Filename>
+			<Filename>gnome-bluetooth-panel.desktop</Filename>
+			<Filename>gnome-camera-panel.desktop</Filename>
+			<Filename>gnome-color-panel.desktop</Filename>
+			<Filename>gnome-datetime-panel.desktop</Filename>
+			<Filename>gnome-default-apps-panel.desktop</Filename>
+			<Filename>gnome-firmware-security-panel.desktop</Filename>
+			<Filename>gnome-diagnostics-panel.desktop</Filename>
+			<Filename>gnome-display-panel.desktop</Filename>
+			<Filename>gnome-usage-panel.desktop</Filename>
+			<Filename>gnome-keyboard-panel.desktop</Filename>
+			<Filename>gnome-location-panel.desktop</Filename>
+			<Filename>gnome-microphone-panel.desktop</Filename>
+			<Filename>gnome-wwan-panel.desktop</Filename>
+			<Filename>gnome-mouse-panel.desktop</Filename>
+			<Filename>gnome-multitasking-panel.desktop</Filename>
+			<Filename>gnome-network-panel.desktop</Filename>
+			<Filename>gnome-notifications-panel.desktop</Filename>
+			<Filename>gnome-online-accounts-panel.desktop</Filename>
+			<Filename>gnome-power-panel.desktop</Filename>
+			<Filename>gnome-printers-panel.desktop</Filename>
+			<Filename>gnome-region-panel.desktop</Filename>
+			<Filename>gnome-removable-media-panel.desktop</Filename>
+			<Filename>gnome-screen-panel.desktop</Filename>
+			<Filename>gnome-search-panel.desktop</Filename>
+			<Filename>gnome-sharing-panel.desktop</Filename>
+			<Filename>gnome-sound-panel.desktop</Filename>
+			<Filename>gnome-thunderbolt-panel.desktop</Filename>
+			<Filename>gnome-user-accounts-panel.desktop</Filename>
+			<Filename>gnome-wacom-panel.desktop</Filename>
+			<Filename>gnome-wifi-panel.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Directory>System-Tools.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>avahi-discover.desktop</Filename>
+			<Filename>gcm-picker.desktop</Filename>
+			<Filename>gcm-import.desktop</Filename>
+			<Filename>gkbd-keyboard-display.desktop</Filename>
+			<Filename>virt-manager.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Universal Access</Name>
+		<Directory>Utility-Accessibility.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Utilities</Name>
+		<Directory>X-GNOME-Utilities.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>org.gnome.FileRoller.desktop</Filename>
+			<Filename>org.gnome.Characters.desktop</Filename>
+			<Filename>org.gnome.DiskUtility.desktop</Filename>
+			<Filename>com.gexperts.Tilix.desktop</Filename>
+			<Filename>org.gnome.tweaks.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Web Applications</Name>
+		<Directory>X-GNOME-WebApplications.directory</Directory>
+		<Layout>
+			<Merge type="menus" />
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Other</Name>
+		<Directory>X-GNOME-Other.directory</Directory>
+		<Include>
+			<Filename>gcr-prompter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>gnome-disk-image-mounter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>gnome-disk-image-writer.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.gnome.Shell.Extensions.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>libreoffice-xsltfilter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.gnome.Shell.PortalHelper.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>xdg-desktop-portal-gtk.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>xdg-desktop-portal-gnome.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>nautilus-autorun-software.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>gcr-viewer.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>geoclue-where-am-i.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus" />
+			<Filename>avahi-discover.desktop</Filename>
+			<Filename>bvnc.desktop</Filename>
+			<Filename>bssh.desktop</Filename>
+			<Filename>gcr-prompter.desktop</Filename>
+			<Filename>gnome-disk-image-mounter.desktop</Filename>
+			<Filename>gnome-disk-image-writer.desktop</Filename>
+			<Filename>org.gnome.Shell.Extensions.desktop</Filename>
+			<Filename>libreoffice-xsltfilter.desktop</Filename>
+			<Filename>org.gnome.Shell.PortalHelper.desktop</Filename>
+			<Filename>xdg-desktop-portal-gtk.desktop</Filename>
+			<Filename>xdg-desktop-portal-gnome.desktop</Filename>
+			<Filename>qt5ct.desktop</Filename>
+			<Filename>qt6ct.desktop</Filename>
+			<Filename>nautilus-autorun-software.desktop</Filename>
+			<Filename>org.gnome.Settings.desktop</Filename>
+			<Filename>gcr-viewer.desktop</Filename>
+			<Filename>geoclue-where-am-i.desktop</Filename>
+			<Merge type="files" />
+		</Layout>
+	</Menu>
+	<Layout>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>System Settings</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Menuname>Utilities</Menuname>
+		<Menuname>Web Applications</Menuname>
+		<Menuname>Other</Menuname>
+	</Layout>
+</Menu>

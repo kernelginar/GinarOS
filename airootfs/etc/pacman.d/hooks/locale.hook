@@ -1,0 +1,12 @@
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Type=Package
+Target=glibc
+
+[Action]
+Description=Generate Locales
+Depends=glibc
+When=PostTransaction
+NeedsTargets
+Exec=/bin/bash -c "echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && echo 'tr_TR.UTF-8 UTF-8 >> /etc/locale.gen' && locale-gen"
