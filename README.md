@@ -12,4 +12,8 @@
 `pacman.conf`: The `pacman.conf` file to be used when creating the ISO file.<br />
 `profiledef.sh`: Profile file containing information about the ISO file and file permissions.<br /><br />
 
-*__Known issues__:* System won't start on computer with BIOS/Legacy. Not sure what the problem is at the moment.
+~*__Known issues__:* System won't start on computer with BIOS/Legacy. Not sure what the problem is at the moment.~<br />
+**The problem has been found and fixed**. Please see the change in `syslinux-linux.cfg` file. <br />
+
+Username: `liveuser`, Password: `liveuser`<br />
+Username: `root`, Password: `root`
