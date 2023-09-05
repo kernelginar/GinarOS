@@ -15,6 +15,7 @@ mkinitcpio-archiso
 grub
 syslinux
 openssh
+arch-install-scripts
 pv
 
 # Virtual Machine packages
